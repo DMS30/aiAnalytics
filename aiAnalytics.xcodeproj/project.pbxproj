@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C6FAD7BA60A4BFD4DFE7CB5 /* Pods_aiAnalytics_aiAnalyticsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396FE174025A00C4E7D66A3E /* Pods_aiAnalytics_aiAnalyticsTests.framework */; };
+		4BA17302D96C71D6617C035E /* Pods_aiAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E0EB316593C3EE2A8FDE79 /* Pods_aiAnalytics.framework */; };
+		A409517C2AEA395100E4EBE7 /* aiAnalytics.docc in Sources */ = {isa = PBXBuildFile; fileRef = A409517B2AEA395100E4EBE7 /* aiAnalytics.docc */; };
+		A40951822AEA395100E4EBE7 /* aiAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40951772AEA395100E4EBE7 /* aiAnalytics.framework */; };
+		A40951872AEA395100E4EBE7 /* aiAnalyticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A40951862AEA395100E4EBE7 /* aiAnalyticsTests.m */; };
+		A40951882AEA395100E4EBE7 /* aiAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = A409517A2AEA395100E4EBE7 /* aiAnalytics.h */; };
+		A40951B82AEA3A3300E4EBE7 /* PHGGroupPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = A409519F2AEA3A3200E4EBE7 /* PHGGroupPayload.m */; };
+		A40951B92AEA3A3300E4EBE7 /* PHGIdentifyPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = A40951A02AEA3A3200E4EBE7 /* PHGIdentifyPayload.m */; };
+		A40951BA2AEA3A3300E4EBE7 /* PHGPayloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951A12AEA3A3200E4EBE7 /* PHGPayloadManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A40951BB2AEA3A3300E4EBE7 /* PHGMiddleware.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951A22AEA3A3200E4EBE7 /* PHGMiddleware.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951BC2AEA3A3300E4EBE7 /* PHGCapturePayload.m in Sources */ = {isa = PBXBuildFile; fileRef = A40951A32AEA3A3200E4EBE7 /* PHGCapturePayload.m */; };
+		A40951BD2AEA3A3300E4EBE7 /* PHGAliasPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951A42AEA3A3200E4EBE7 /* PHGAliasPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951BE2AEA3A3300E4EBE7 /* PHGSerializableValue.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951A52AEA3A3300E4EBE7 /* PHGSerializableValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951BF2AEA3A3300E4EBE7 /* PHGIdentifyPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951A62AEA3A3300E4EBE7 /* PHGIdentifyPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951C02AEA3A3300E4EBE7 /* PHGCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951A72AEA3A3300E4EBE7 /* PHGCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951C12AEA3A3300E4EBE7 /* PHGContext.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951A82AEA3A3300E4EBE7 /* PHGContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951C22AEA3A3300E4EBE7 /* PHGAliasPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = A40951A92AEA3A3300E4EBE7 /* PHGAliasPayload.m */; };
+		A40951C32AEA3A3300E4EBE7 /* PHGPayloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A40951AA2AEA3A3300E4EBE7 /* PHGPayloadManager.m */; };
+		A40951C42AEA3A3300E4EBE7 /* PHGScreenPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951AB2AEA3A3300E4EBE7 /* PHGScreenPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951C52AEA3A3300E4EBE7 /* PHGPostHog.m in Sources */ = {isa = PBXBuildFile; fileRef = A40951AC2AEA3A3300E4EBE7 /* PHGPostHog.m */; };
+		A40951C62AEA3A3300E4EBE7 /* PHGPostHogConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951AD2AEA3A3300E4EBE7 /* PHGPostHogConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951C72AEA3A3300E4EBE7 /* PHGPostHog.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951AE2AEA3A3300E4EBE7 /* PHGPostHog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951C82AEA3A3300E4EBE7 /* PHGPostHogConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A40951AF2AEA3A3300E4EBE7 /* PHGPostHogConfiguration.m */; };
+		A40951C92AEA3A3300E4EBE7 /* PHGPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951B02AEA3A3300E4EBE7 /* PHGPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951CA2AEA3A3300E4EBE7 /* PHGIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951B12AEA3A3300E4EBE7 /* PHGIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951CB2AEA3A3300E4EBE7 /* PHGGroupPayload.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951B22AEA3A3300E4EBE7 /* PHGGroupPayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951CC2AEA3A3300E4EBE7 /* PHGCapturePayload.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951B32AEA3A3300E4EBE7 /* PHGCapturePayload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40951CD2AEA3A3300E4EBE7 /* PHGMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = A40951B42AEA3A3300E4EBE7 /* PHGMiddleware.m */; };
+		A40951CE2AEA3A3300E4EBE7 /* PHGScreenPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = A40951B52AEA3A3300E4EBE7 /* PHGScreenPayload.m */; };
+		A40951CF2AEA3A3300E4EBE7 /* PHGPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = A40951B62AEA3A3300E4EBE7 /* PHGPayload.m */; };
+		A40951D02AEA3A3300E4EBE7 /* PHGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A40951B72AEA3A3300E4EBE7 /* PHGContext.m */; };
+		A40952172AEA48AE00E4EBE7 /* PHGPostHogUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A40951FF2AEA48AC00E4EBE7 /* PHGPostHogUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A40952182AEA48AE00E4EBE7 /* PHGAES256Crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = A40952002AEA48AC00E4EBE7 /* PHGAES256Crypto.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A40952192AEA48AE00E4EBE7 /* PHGUserDefaultsStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = A40952012AEA48AC00E4EBE7 /* PHGUserDefaultsStorage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A409521A2AEA48AE00E4EBE7 /* PHGApplicationUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A40952022AEA48AC00E4EBE7 /* PHGApplicationUtils.h */; };
+		A409521B2AEA48AE00E4EBE7 /* PHGStoreKitCapturer.h in Headers */ = {isa = PBXBuildFile; fileRef = A40952032AEA48AC00E4EBE7 /* PHGStoreKitCapturer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A409521C2AEA48AE00E4EBE7 /* UIViewController+PHGScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = A40952042AEA48AC00E4EBE7 /* UIViewController+PHGScreen.m */; };
+		A409521D2AEA48AE00E4EBE7 /* UIViewController+PHGScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = A40952052AEA48AC00E4EBE7 /* UIViewController+PHGScreen.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A409521E2AEA48AE00E4EBE7 /* PHGPostHogIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = A40952062AEA48AC00E4EBE7 /* PHGPostHogIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A409521F2AEA48AE00E4EBE7 /* NSData+PHGGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = A40952072AEA48AC00E4EBE7 /* NSData+PHGGZIP.m */; };
+		A40952202AEA48AE00E4EBE7 /* PHGPostHogUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A40952082AEA48AD00E4EBE7 /* PHGPostHogUtils.m */; };
+		A40952212AEA48AE00E4EBE7 /* PHGPostHogIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = A40952092AEA48AD00E4EBE7 /* PHGPostHogIntegration.m */; };
+		A40952222AEA48AE00E4EBE7 /* PHGHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = A409520A2AEA48AD00E4EBE7 /* PHGHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40952232AEA48AE00E4EBE7 /* PHGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A409520B2AEA48AD00E4EBE7 /* PHGUtils.m */; };
+		A40952242AEA48AE00E4EBE7 /* PHGApplicationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A409520C2AEA48AD00E4EBE7 /* PHGApplicationUtils.m */; };
+		A40952252AEA48AE00E4EBE7 /* PHGFileStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = A409520D2AEA48AD00E4EBE7 /* PHGFileStorage.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A40952262AEA48AE00E4EBE7 /* NSData+PHGGZIP.h in Headers */ = {isa = PBXBuildFile; fileRef = A409520E2AEA48AD00E4EBE7 /* NSData+PHGGZIP.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A40952272AEA48AE00E4EBE7 /* PHGStoreKitCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = A409520F2AEA48AD00E4EBE7 /* PHGStoreKitCapturer.m */; };
+		A40952282AEA48AE00E4EBE7 /* PHGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A40952102AEA48AD00E4EBE7 /* PHGMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A40952292AEA48AE00E4EBE7 /* PHGAES256Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = A40952112AEA48AD00E4EBE7 /* PHGAES256Crypto.m */; };
+		A409522A2AEA48AE00E4EBE7 /* PHGFileStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A40952122AEA48AD00E4EBE7 /* PHGFileStorage.m */; };
+		A409522B2AEA48AE00E4EBE7 /* PHGHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A40952132AEA48AD00E4EBE7 /* PHGHTTPClient.m */; };
+		A409522C2AEA48AE00E4EBE7 /* PHGStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = A40952142AEA48AE00E4EBE7 /* PHGStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A409522D2AEA48AE00E4EBE7 /* PHGUserDefaultsStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = A40952152AEA48AE00E4EBE7 /* PHGUserDefaultsStorage.m */; };
+		A409522E2AEA48AE00E4EBE7 /* PHGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A40952162AEA48AE00E4EBE7 /* PHGUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A40952332AEA492100E4EBE7 /* PHGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = A409522F2AEA492100E4EBE7 /* PHGReachability.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A40952342AEA492100E4EBE7 /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = A40952302AEA492100E4EBE7 /* ObjC.m */; };
+		A40952352AEA492100E4EBE7 /* PHGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A40952312AEA492100E4EBE7 /* PHGReachability.m */; };
+		A40952362AEA492100E4EBE7 /* ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = A40952322AEA492100E4EBE7 /* ObjC.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A40951832AEA395100E4EBE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A409516E2AEA395100E4EBE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A40951762AEA395100E4EBE7;
+			remoteInfo = aiAnalytics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E65A9E56BD47E3909EBB868 /* Pods-aiAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiAnalytics.release.xcconfig"; path = "Target Support Files/Pods-aiAnalytics/Pods-aiAnalytics.release.xcconfig"; sourceTree = "<group>"; };
+		396FE174025A00C4E7D66A3E /* Pods_aiAnalytics_aiAnalyticsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aiAnalytics_aiAnalyticsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3CDFA6D5F6DF009A63A379 /* Pods-aiAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiAnalytics.debug.xcconfig"; path = "Target Support Files/Pods-aiAnalytics/Pods-aiAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
+		A40951772AEA395100E4EBE7 /* aiAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = aiAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A409517A2AEA395100E4EBE7 /* aiAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aiAnalytics.h; sourceTree = "<group>"; };
+		A409517B2AEA395100E4EBE7 /* aiAnalytics.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = aiAnalytics.docc; sourceTree = "<group>"; };
+		A40951812AEA395100E4EBE7 /* aiAnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aiAnalyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40951862AEA395100E4EBE7 /* aiAnalyticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aiAnalyticsTests.m; sourceTree = "<group>"; };
+		A409519F2AEA3A3200E4EBE7 /* PHGGroupPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGGroupPayload.m; sourceTree = "<group>"; };
+		A40951A02AEA3A3200E4EBE7 /* PHGIdentifyPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGIdentifyPayload.m; sourceTree = "<group>"; };
+		A40951A12AEA3A3200E4EBE7 /* PHGPayloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGPayloadManager.h; sourceTree = "<group>"; };
+		A40951A22AEA3A3200E4EBE7 /* PHGMiddleware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGMiddleware.h; sourceTree = "<group>"; };
+		A40951A32AEA3A3200E4EBE7 /* PHGCapturePayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGCapturePayload.m; sourceTree = "<group>"; };
+		A40951A42AEA3A3200E4EBE7 /* PHGAliasPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGAliasPayload.h; sourceTree = "<group>"; };
+		A40951A52AEA3A3300E4EBE7 /* PHGSerializableValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGSerializableValue.h; sourceTree = "<group>"; };
+		A40951A62AEA3A3300E4EBE7 /* PHGIdentifyPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGIdentifyPayload.h; sourceTree = "<group>"; };
+		A40951A72AEA3A3300E4EBE7 /* PHGCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGCrypto.h; sourceTree = "<group>"; };
+		A40951A82AEA3A3300E4EBE7 /* PHGContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGContext.h; sourceTree = "<group>"; };
+		A40951A92AEA3A3300E4EBE7 /* PHGAliasPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGAliasPayload.m; sourceTree = "<group>"; };
+		A40951AA2AEA3A3300E4EBE7 /* PHGPayloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGPayloadManager.m; sourceTree = "<group>"; };
+		A40951AB2AEA3A3300E4EBE7 /* PHGScreenPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGScreenPayload.h; sourceTree = "<group>"; };
+		A40951AC2AEA3A3300E4EBE7 /* PHGPostHog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGPostHog.m; sourceTree = "<group>"; };
+		A40951AD2AEA3A3300E4EBE7 /* PHGPostHogConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGPostHogConfiguration.h; sourceTree = "<group>"; };
+		A40951AE2AEA3A3300E4EBE7 /* PHGPostHog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGPostHog.h; sourceTree = "<group>"; };
+		A40951AF2AEA3A3300E4EBE7 /* PHGPostHogConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGPostHogConfiguration.m; sourceTree = "<group>"; };
+		A40951B02AEA3A3300E4EBE7 /* PHGPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGPayload.h; sourceTree = "<group>"; };
+		A40951B12AEA3A3300E4EBE7 /* PHGIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGIntegration.h; sourceTree = "<group>"; };
+		A40951B22AEA3A3300E4EBE7 /* PHGGroupPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGGroupPayload.h; sourceTree = "<group>"; };
+		A40951B32AEA3A3300E4EBE7 /* PHGCapturePayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHGCapturePayload.h; sourceTree = "<group>"; };
+		A40951B42AEA3A3300E4EBE7 /* PHGMiddleware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGMiddleware.m; sourceTree = "<group>"; };
+		A40951B52AEA3A3300E4EBE7 /* PHGScreenPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGScreenPayload.m; sourceTree = "<group>"; };
+		A40951B62AEA3A3300E4EBE7 /* PHGPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGPayload.m; sourceTree = "<group>"; };
+		A40951B72AEA3A3300E4EBE7 /* PHGContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHGContext.m; sourceTree = "<group>"; };
+		A40951FF2AEA48AC00E4EBE7 /* PHGPostHogUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHGPostHogUtils.h; path = Internal/PHGPostHogUtils.h; sourceTree = "<group>"; };
+		A40952002AEA48AC00E4EBE7 /* PHGAES256Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHGAES256Crypto.h; path = Internal/PHGAES256Crypto.h; sourceTree = "<group>"; };
+		A40952012AEA48AC00E4EBE7 /* PHGUserDefaultsStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHGUserDefaultsStorage.h; path = Internal/PHGUserDefaultsStorage.h; sourceTree = "<group>"; };
+		A40952022AEA48AC00E4EBE7 /* PHGApplicationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHGApplicationUtils.h; path = Internal/PHGApplicationUtils.h; sourceTree = "<group>"; };
+		A40952032AEA48AC00E4EBE7 /* PHGStoreKitCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHGStoreKitCapturer.h; path = Internal/PHGStoreKitCapturer.h; sourceTree = "<group>"; };
+		A40952042AEA48AC00E4EBE7 /* UIViewController+PHGScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PHGScreen.m"; path = "Internal/UIViewController+PHGScreen.m"; sourceTree = "<group>"; };
+		A40952052AEA48AC00E4EBE7 /* UIViewController+PHGScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PHGScreen.h"; path = "Internal/UIViewController+PHGScreen.h"; sourceTree = "<group>"; };
+		A40952062AEA48AC00E4EBE7 /* PHGPostHogIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHGPostHogIntegration.h; path = Internal/PHGPostHogIntegration.h; sourceTree = "<group>"; };
+		A40952072AEA48AC00E4EBE7 /* NSData+PHGGZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+PHGGZIP.m"; path = "Internal/NSData+PHGGZIP.m"; sourceTree = "<group>"; };
+		A40952082AEA48AD00E4EBE7 /* PHGPostHogUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PHGPostHogUtils.m; path = Internal/PHGPostHogUtils.m; sourceTree = "<group>"; };
+		A40952092AEA48AD00E4EBE7 /* PHGPostHogIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PHGPostHogIntegration.m; path = Internal/PHGPostHogIntegration.m; sourceTree = "<group>"; };
+		A409520A2AEA48AD00E4EBE7 /* PHGHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHGHTTPClient.h; path = Internal/PHGHTTPClient.h; sourceTree = "<group>"; };
+		A409520B2AEA48AD00E4EBE7 /* PHGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PHGUtils.m; path = Internal/PHGUtils.m; sourceTree = "<group>"; };
+		A409520C2AEA48AD00E4EBE7 /* PHGApplicationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PHGApplicationUtils.m; path = Internal/PHGApplicationUtils.m; sourceTree = "<group>"; };
+		A409520D2AEA48AD00E4EBE7 /* PHGFileStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHGFileStorage.h; path = Internal/PHGFileStorage.h; sourceTree = "<group>"; };
+		A409520E2AEA48AD00E4EBE7 /* NSData+PHGGZIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+PHGGZIP.h"; path = "Internal/NSData+PHGGZIP.h"; sourceTree = "<group>"; };
+		A409520F2AEA48AD00E4EBE7 /* PHGStoreKitCapturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PHGStoreKitCapturer.m; path = Internal/PHGStoreKitCapturer.m; sourceTree = "<group>"; };
+		A40952102AEA48AD00E4EBE7 /* PHGMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHGMacros.h; path = Internal/PHGMacros.h; sourceTree = "<group>"; };
+		A40952112AEA48AD00E4EBE7 /* PHGAES256Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PHGAES256Crypto.m; path = Internal/PHGAES256Crypto.m; sourceTree = "<group>"; };
+		A40952122AEA48AD00E4EBE7 /* PHGFileStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PHGFileStorage.m; path = Internal/PHGFileStorage.m; sourceTree = "<group>"; };
+		A40952132AEA48AD00E4EBE7 /* PHGHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PHGHTTPClient.m; path = Internal/PHGHTTPClient.m; sourceTree = "<group>"; };
+		A40952142AEA48AE00E4EBE7 /* PHGStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHGStorage.h; path = Internal/PHGStorage.h; sourceTree = "<group>"; };
+		A40952152AEA48AE00E4EBE7 /* PHGUserDefaultsStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PHGUserDefaultsStorage.m; path = Internal/PHGUserDefaultsStorage.m; sourceTree = "<group>"; };
+		A40952162AEA48AE00E4EBE7 /* PHGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHGUtils.h; path = Internal/PHGUtils.h; sourceTree = "<group>"; };
+		A409522F2AEA492100E4EBE7 /* PHGReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PHGReachability.h; path = aiAnalytics/Classes/PHGReachability.h; sourceTree = SOURCE_ROOT; };
+		A40952302AEA492100E4EBE7 /* ObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjC.m; path = aiAnalytics/Classes/ObjC.m; sourceTree = SOURCE_ROOT; };
+		A40952312AEA492100E4EBE7 /* PHGReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PHGReachability.m; path = aiAnalytics/Classes/PHGReachability.m; sourceTree = SOURCE_ROOT; };
+		A40952322AEA492100E4EBE7 /* ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjC.h; path = aiAnalytics/Classes/ObjC.h; sourceTree = SOURCE_ROOT; };
+		D7E0EB316593C3EE2A8FDE79 /* Pods_aiAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aiAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC75D5F489F3CB534AB8336 /* Pods-aiAnalytics-aiAnalyticsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiAnalytics-aiAnalyticsTests.release.xcconfig"; path = "Target Support Files/Pods-aiAnalytics-aiAnalyticsTests/Pods-aiAnalytics-aiAnalyticsTests.release.xcconfig"; sourceTree = "<group>"; };
+		EFCEFE269C4EE404AB927F4D /* Pods-aiAnalytics-aiAnalyticsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiAnalytics-aiAnalyticsTests.debug.xcconfig"; path = "Target Support Files/Pods-aiAnalytics-aiAnalyticsTests/Pods-aiAnalytics-aiAnalyticsTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40951742AEA395100E4EBE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA17302D96C71D6617C035E /* Pods_aiAnalytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A409517E2AEA395100E4EBE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40951822AEA395100E4EBE7 /* aiAnalytics.framework in Frameworks */,
+				1C6FAD7BA60A4BFD4DFE7CB5 /* Pods_aiAnalytics_aiAnalyticsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		923E82EF55CBD3E8E40178E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B3CDFA6D5F6DF009A63A379 /* Pods-aiAnalytics.debug.xcconfig */,
+				2E65A9E56BD47E3909EBB868 /* Pods-aiAnalytics.release.xcconfig */,
+				EFCEFE269C4EE404AB927F4D /* Pods-aiAnalytics-aiAnalyticsTests.debug.xcconfig */,
+				ECC75D5F489F3CB534AB8336 /* Pods-aiAnalytics-aiAnalyticsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A409516D2AEA395100E4EBE7 = {
+			isa = PBXGroup;
+			children = (
+				A40951792AEA395100E4EBE7 /* aiAnalytics */,
+				A40951852AEA395100E4EBE7 /* aiAnalyticsTests */,
+				A40951782AEA395100E4EBE7 /* Products */,
+				923E82EF55CBD3E8E40178E3 /* Pods */,
+				A41D27333126468FFE39EE47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A40951782AEA395100E4EBE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A40951772AEA395100E4EBE7 /* aiAnalytics.framework */,
+				A40951812AEA395100E4EBE7 /* aiAnalyticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40951792AEA395100E4EBE7 /* aiAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				A409520C2AEA48AD00E4EBE7 /* PHGApplicationUtils.m */,
+				A40952022AEA48AC00E4EBE7 /* PHGApplicationUtils.h */,
+				A40951952AEA39C100E4EBE7 /* Classes */,
+				A40952112AEA48AD00E4EBE7 /* PHGAES256Crypto.m */,
+				A409517A2AEA395100E4EBE7 /* aiAnalytics.h */,
+				A409520E2AEA48AD00E4EBE7 /* NSData+PHGGZIP.h */,
+				A40952072AEA48AC00E4EBE7 /* NSData+PHGGZIP.m */,
+				A409520D2AEA48AD00E4EBE7 /* PHGFileStorage.h */,
+				A40952122AEA48AD00E4EBE7 /* PHGFileStorage.m */,
+				A40952132AEA48AD00E4EBE7 /* PHGHTTPClient.m */,
+				A409520A2AEA48AD00E4EBE7 /* PHGHTTPClient.h */,
+				A40952102AEA48AD00E4EBE7 /* PHGMacros.h */,
+				A40952002AEA48AC00E4EBE7 /* PHGAES256Crypto.h */,
+				A40952062AEA48AC00E4EBE7 /* PHGPostHogIntegration.h */,
+				A40952092AEA48AD00E4EBE7 /* PHGPostHogIntegration.m */,
+				A40952082AEA48AD00E4EBE7 /* PHGPostHogUtils.m */,
+				A40952142AEA48AE00E4EBE7 /* PHGStorage.h */,
+				A40952032AEA48AC00E4EBE7 /* PHGStoreKitCapturer.h */,
+				A409520F2AEA48AD00E4EBE7 /* PHGStoreKitCapturer.m */,
+				A40952152AEA48AE00E4EBE7 /* PHGUserDefaultsStorage.m */,
+				A40952162AEA48AE00E4EBE7 /* PHGUtils.h */,
+				A409520B2AEA48AD00E4EBE7 /* PHGUtils.m */,
+				A40952052AEA48AC00E4EBE7 /* UIViewController+PHGScreen.h */,
+				A40951FF2AEA48AC00E4EBE7 /* PHGPostHogUtils.h */,
+				A40952012AEA48AC00E4EBE7 /* PHGUserDefaultsStorage.h */,
+				A40952042AEA48AC00E4EBE7 /* UIViewController+PHGScreen.m */,
+				A409517B2AEA395100E4EBE7 /* aiAnalytics.docc */,
+			);
+			path = aiAnalytics;
+			sourceTree = "<group>";
+		};
+		A40951852AEA395100E4EBE7 /* aiAnalyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A40951862AEA395100E4EBE7 /* aiAnalyticsTests.m */,
+			);
+			path = aiAnalyticsTests;
+			sourceTree = "<group>";
+		};
+		A40951952AEA39C100E4EBE7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A40952402AEA732600E4EBE7 /* Vendor */,
+				A40951A42AEA3A3200E4EBE7 /* PHGAliasPayload.h */,
+				A40951A92AEA3A3300E4EBE7 /* PHGAliasPayload.m */,
+				A40951B32AEA3A3300E4EBE7 /* PHGCapturePayload.h */,
+				A40951A32AEA3A3200E4EBE7 /* PHGCapturePayload.m */,
+				A40951A82AEA3A3300E4EBE7 /* PHGContext.h */,
+				A40951B72AEA3A3300E4EBE7 /* PHGContext.m */,
+				A40951A72AEA3A3300E4EBE7 /* PHGCrypto.h */,
+				A40951B22AEA3A3300E4EBE7 /* PHGGroupPayload.h */,
+				A409519F2AEA3A3200E4EBE7 /* PHGGroupPayload.m */,
+				A40951A62AEA3A3300E4EBE7 /* PHGIdentifyPayload.h */,
+				A40951A02AEA3A3200E4EBE7 /* PHGIdentifyPayload.m */,
+				A40951B12AEA3A3300E4EBE7 /* PHGIntegration.h */,
+				A40951A22AEA3A3200E4EBE7 /* PHGMiddleware.h */,
+				A40951B42AEA3A3300E4EBE7 /* PHGMiddleware.m */,
+				A40951B02AEA3A3300E4EBE7 /* PHGPayload.h */,
+				A40951B62AEA3A3300E4EBE7 /* PHGPayload.m */,
+				A40951A12AEA3A3200E4EBE7 /* PHGPayloadManager.h */,
+				A40951AA2AEA3A3300E4EBE7 /* PHGPayloadManager.m */,
+				A40951AE2AEA3A3300E4EBE7 /* PHGPostHog.h */,
+				A40951AC2AEA3A3300E4EBE7 /* PHGPostHog.m */,
+				A40951AD2AEA3A3300E4EBE7 /* PHGPostHogConfiguration.h */,
+				A40951AF2AEA3A3300E4EBE7 /* PHGPostHogConfiguration.m */,
+				A40951AB2AEA3A3300E4EBE7 /* PHGScreenPayload.h */,
+				A40951B52AEA3A3300E4EBE7 /* PHGScreenPayload.m */,
+				A40951A52AEA3A3300E4EBE7 /* PHGSerializableValue.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A40952402AEA732600E4EBE7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A40952322AEA492100E4EBE7 /* ObjC.h */,
+				A40952302AEA492100E4EBE7 /* ObjC.m */,
+				A409522F2AEA492100E4EBE7 /* PHGReachability.h */,
+				A40952312AEA492100E4EBE7 /* PHGReachability.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		A41D27333126468FFE39EE47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0EB316593C3EE2A8FDE79 /* Pods_aiAnalytics.framework */,
+				396FE174025A00C4E7D66A3E /* Pods_aiAnalytics_aiAnalyticsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A40951722AEA395100E4EBE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40951C62AEA3A3300E4EBE7 /* PHGPostHogConfiguration.h in Headers */,
+				A409522C2AEA48AE00E4EBE7 /* PHGStorage.h in Headers */,
+				A40951882AEA395100E4EBE7 /* aiAnalytics.h in Headers */,
+				A40951BA2AEA3A3300E4EBE7 /* PHGPayloadManager.h in Headers */,
+				A40952262AEA48AE00E4EBE7 /* NSData+PHGGZIP.h in Headers */,
+				A409521A2AEA48AE00E4EBE7 /* PHGApplicationUtils.h in Headers */,
+				A40952252AEA48AE00E4EBE7 /* PHGFileStorage.h in Headers */,
+				A409522E2AEA48AE00E4EBE7 /* PHGUtils.h in Headers */,
+				A409521D2AEA48AE00E4EBE7 /* UIViewController+PHGScreen.h in Headers */,
+				A40952222AEA48AE00E4EBE7 /* PHGHTTPClient.h in Headers */,
+				A40952362AEA492100E4EBE7 /* ObjC.h in Headers */,
+				A40951BB2AEA3A3300E4EBE7 /* PHGMiddleware.h in Headers */,
+				A409521B2AEA48AE00E4EBE7 /* PHGStoreKitCapturer.h in Headers */,
+				A40951BD2AEA3A3300E4EBE7 /* PHGAliasPayload.h in Headers */,
+				A40951CC2AEA3A3300E4EBE7 /* PHGCapturePayload.h in Headers */,
+				A40951C42AEA3A3300E4EBE7 /* PHGScreenPayload.h in Headers */,
+				A40951CB2AEA3A3300E4EBE7 /* PHGGroupPayload.h in Headers */,
+				A40951C92AEA3A3300E4EBE7 /* PHGPayload.h in Headers */,
+				A40951CA2AEA3A3300E4EBE7 /* PHGIntegration.h in Headers */,
+				A40952332AEA492100E4EBE7 /* PHGReachability.h in Headers */,
+				A40951BE2AEA3A3300E4EBE7 /* PHGSerializableValue.h in Headers */,
+				A40951C12AEA3A3300E4EBE7 /* PHGContext.h in Headers */,
+				A40952282AEA48AE00E4EBE7 /* PHGMacros.h in Headers */,
+				A40952192AEA48AE00E4EBE7 /* PHGUserDefaultsStorage.h in Headers */,
+				A409521E2AEA48AE00E4EBE7 /* PHGPostHogIntegration.h in Headers */,
+				A40951BF2AEA3A3300E4EBE7 /* PHGIdentifyPayload.h in Headers */,
+				A40951C02AEA3A3300E4EBE7 /* PHGCrypto.h in Headers */,
+				A40952182AEA48AE00E4EBE7 /* PHGAES256Crypto.h in Headers */,
+				A40951C72AEA3A3300E4EBE7 /* PHGPostHog.h in Headers */,
+				A40952172AEA48AE00E4EBE7 /* PHGPostHogUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A40951762AEA395100E4EBE7 /* aiAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A409518B2AEA395100E4EBE7 /* Build configuration list for PBXNativeTarget "aiAnalytics" */;
+			buildPhases = (
+				59F574E1199B8B2A6126C34F /* [CP] Check Pods Manifest.lock */,
+				A40951722AEA395100E4EBE7 /* Headers */,
+				A40951732AEA395100E4EBE7 /* Sources */,
+				A40951742AEA395100E4EBE7 /* Frameworks */,
+				A40951752AEA395100E4EBE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aiAnalytics;
+			productName = aiAnalytics;
+			productReference = A40951772AEA395100E4EBE7 /* aiAnalytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A40951802AEA395100E4EBE7 /* aiAnalyticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A409518E2AEA395100E4EBE7 /* Build configuration list for PBXNativeTarget "aiAnalyticsTests" */;
+			buildPhases = (
+				48D3C02062B778A879D2BF32 /* [CP] Check Pods Manifest.lock */,
+				A409517D2AEA395100E4EBE7 /* Sources */,
+				A409517E2AEA395100E4EBE7 /* Frameworks */,
+				A409517F2AEA395100E4EBE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A40951842AEA395100E4EBE7 /* PBXTargetDependency */,
+			);
+			name = aiAnalyticsTests;
+			productName = aiAnalyticsTests;
+			productReference = A40951812AEA395100E4EBE7 /* aiAnalyticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A409516E2AEA395100E4EBE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A40951762AEA395100E4EBE7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A40951802AEA395100E4EBE7 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A40951712AEA395100E4EBE7 /* Build configuration list for PBXProject "aiAnalytics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A409516D2AEA395100E4EBE7;
+			productRefGroup = A40951782AEA395100E4EBE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40951762AEA395100E4EBE7 /* aiAnalytics */,
+				A40951802AEA395100E4EBE7 /* aiAnalyticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40951752AEA395100E4EBE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A409517F2AEA395100E4EBE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48D3C02062B778A879D2BF32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aiAnalytics-aiAnalyticsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59F574E1199B8B2A6126C34F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aiAnalytics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40951732AEA395100E4EBE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40952202AEA48AE00E4EBE7 /* PHGPostHogUtils.m in Sources */,
+				A409521C2AEA48AE00E4EBE7 /* UIViewController+PHGScreen.m in Sources */,
+				A40951B92AEA3A3300E4EBE7 /* PHGIdentifyPayload.m in Sources */,
+				A40951C82AEA3A3300E4EBE7 /* PHGPostHogConfiguration.m in Sources */,
+				A409521F2AEA48AE00E4EBE7 /* NSData+PHGGZIP.m in Sources */,
+				A40951B82AEA3A3300E4EBE7 /* PHGGroupPayload.m in Sources */,
+				A409522A2AEA48AE00E4EBE7 /* PHGFileStorage.m in Sources */,
+				A409522B2AEA48AE00E4EBE7 /* PHGHTTPClient.m in Sources */,
+				A40952352AEA492100E4EBE7 /* PHGReachability.m in Sources */,
+				A40952272AEA48AE00E4EBE7 /* PHGStoreKitCapturer.m in Sources */,
+				A40951CF2AEA3A3300E4EBE7 /* PHGPayload.m in Sources */,
+				A409522D2AEA48AE00E4EBE7 /* PHGUserDefaultsStorage.m in Sources */,
+				A40952232AEA48AE00E4EBE7 /* PHGUtils.m in Sources */,
+				A409517C2AEA395100E4EBE7 /* aiAnalytics.docc in Sources */,
+				A40951C32AEA3A3300E4EBE7 /* PHGPayloadManager.m in Sources */,
+				A40951BC2AEA3A3300E4EBE7 /* PHGCapturePayload.m in Sources */,
+				A40951C52AEA3A3300E4EBE7 /* PHGPostHog.m in Sources */,
+				A40952242AEA48AE00E4EBE7 /* PHGApplicationUtils.m in Sources */,
+				A40951CE2AEA3A3300E4EBE7 /* PHGScreenPayload.m in Sources */,
+				A40951C22AEA3A3300E4EBE7 /* PHGAliasPayload.m in Sources */,
+				A40951CD2AEA3A3300E4EBE7 /* PHGMiddleware.m in Sources */,
+				A40951D02AEA3A3300E4EBE7 /* PHGContext.m in Sources */,
+				A40952292AEA48AE00E4EBE7 /* PHGAES256Crypto.m in Sources */,
+				A40952212AEA48AE00E4EBE7 /* PHGPostHogIntegration.m in Sources */,
+				A40952342AEA492100E4EBE7 /* ObjC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A409517D2AEA395100E4EBE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40951872AEA395100E4EBE7 /* aiAnalyticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A40951842AEA395100E4EBE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A40951762AEA395100E4EBE7 /* aiAnalytics */;
+			targetProxy = A40951832AEA395100E4EBE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A40951892AEA395100E4EBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A409518A2AEA395100E4EBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A409518C2AEA395100E4EBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3CDFA6D5F6DF009A63A379 /* Pods-aiAnalytics.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 56P479WMRQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				EXCLUDED_ARCHS = "i386 armv7";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = io.inai.aiAnalytics;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A409518D2AEA395100E4EBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E65A9E56BD47E3909EBB868 /* Pods-aiAnalytics.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 56P479WMRQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				EXCLUDED_ARCHS = "i386 armv7";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = io.inai.aiAnalytics;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A409518F2AEA395100E4EBE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFCEFE269C4EE404AB927F4D /* Pods-aiAnalytics-aiAnalyticsTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56P479WMRQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.inai.aiAnalyticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A40951902AEA395100E4EBE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECC75D5F489F3CB534AB8336 /* Pods-aiAnalytics-aiAnalyticsTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56P479WMRQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.inai.aiAnalyticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A40951712AEA395100E4EBE7 /* Build configuration list for PBXProject "aiAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40951892AEA395100E4EBE7 /* Debug */,
+				A409518A2AEA395100E4EBE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A409518B2AEA395100E4EBE7 /* Build configuration list for PBXNativeTarget "aiAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A409518C2AEA395100E4EBE7 /* Debug */,
+				A409518D2AEA395100E4EBE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A409518E2AEA395100E4EBE7 /* Build configuration list for PBXNativeTarget "aiAnalyticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A409518F2AEA395100E4EBE7 /* Debug */,
+				A40951902AEA395100E4EBE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A409516E2AEA395100E4EBE7 /* Project object */;
+}

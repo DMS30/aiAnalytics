@@ -1,0 +1,6 @@
+framework module Pods_aiAnalytics_aiAnalyticsTests {
+  umbrella header "Pods-aiAnalytics-aiAnalyticsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
