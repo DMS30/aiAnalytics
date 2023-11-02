@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-aiAnalytics-aiAnalyticsTests/Pods-aiAnalytics-aiAnalyticsTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Alamofire-Synchronous/Alamofire_Synchronous.framework
+${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework
+${BUILT_PRODUCTS_DIR}/Nocilla/Nocilla.framework
+${BUILT_PRODUCTS_DIR}/Quick/Quick.framework

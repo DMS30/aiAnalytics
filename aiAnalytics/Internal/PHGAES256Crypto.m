@@ -1,7 +1,7 @@
 #import <CommonCrypto/CommonCryptor.h>
 #import <CommonCrypto/CommonKeyDerivation.h>
 #import "PHGAES256Crypto.h"
-#import "PHGUtils.h"
+#import "aiUtils.h"
 
 // Implementation courtesy of http://robnapier.net/aes-commoncrypto
 

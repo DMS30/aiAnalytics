@@ -38,7 +38,7 @@
 
 #pragma clang diagnostic ignored "-Wcast-qual"
 
-void *_Nullable phg_libzOpen()
+void *_Nullable phg_libzOpen(void)
 {
     static void *libz;
     static dispatch_once_t onceToken;

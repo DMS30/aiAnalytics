@@ -160,6 +160,9 @@ static CTTelephonyNetworkInfo *_telephonyNetworkInfo;
         case UIUserInterfaceIdiomMac:
             deviceType = @"Desktop";
             break;
+        case UIUserInterfaceIdiomVision:
+            deviceType = @"Vision";
+            break;
     }
 
     dict[@"$device_manufacturer"] = @"Apple";

@@ -2,7 +2,7 @@
 
 static BOOL kPostHogLoggerShowLogs = NO;
 
-NSString *createUUIDString()
+NSString *createUUIDString(void)
 {
     CFUUIDRef theUUID = CFUUIDCreate(NULL);
     NSString *UUIDString = (__bridge_transfer NSString *)CFUUIDCreateString(NULL, theUUID);

@@ -1,8 +1,8 @@
 #import <Foundation/Foundation.h>
-#import "PHGCrypto.h"
+#import "aiCrypto.h"
 
 
-@interface PHGAES256Crypto : NSObject <PHGCrypto>
+@interface PHGAES256Crypto : NSObject <aiCrypto>
 
 @property (nonatomic, readonly, nonnull) NSString *password;
 @property (nonatomic, readonly, nonnull) NSData *salt;
