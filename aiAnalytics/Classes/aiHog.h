@@ -49,7 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @see -setupWithConfiguration:
  */
-+ (instancetype _Nullable)sharedPostHog;
++ (instancetype _Nullable)sharedaiHog;
 
 /*!
  @method

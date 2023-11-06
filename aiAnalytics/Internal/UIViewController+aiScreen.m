@@ -94,7 +94,7 @@
             name = @"Unknown";
         }
     }
-    [[aiHog sharedPostHog] screen:name properties:nil];
+    [[aiHog sharedaiHog] screen:name properties:nil];
 
     [self phg_viewDidAppear:animated];
 }

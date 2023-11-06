@@ -547,7 +547,7 @@ NSString *const PHGBuildKeyV2 = @"PHGBuildKeyV2";
 
 #pragma mark - Class Methods
 
-+ (instancetype)sharedPostHog
++ (instancetype)sharedaiHog
 {
     NSCAssert(__sharedInstance != nil, @"library must be initialized before calling this method.");
     return __sharedInstance;
