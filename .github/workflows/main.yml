@@ -14,10 +14,9 @@ jobs:
 
 build:
 
-runs-on: self-hosted
+runs-on: macOS-14
 
 steps:
-  runs-on: macOS-14
 
 - uses: inaitech/checkout@v2
 
