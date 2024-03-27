@@ -1,25 +1,19 @@
-name: Generate-SDK
+name: release_ai_cocoapod
 
 on:
-
-push:
-
-branches: [ main ]
-
-pull_request:
-
-workflow_dispatch:
-
+  push:
+    tags:
+      - 'v*.*.*'
+      
+  workflow_dispatch:
 jobs:
-
-build:
-
-runs-on: macOS-14
-
-steps:
-
-- uses: inaitech/checkout@v2
-
-- name: Run a one-line script
-
-run: echo Hello, world!
+  build:
+    runs-on: macOS-14
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Run build Script
+        run: |
+           chmod +x xcode_build.sh
+           sh xcode_build.sh
+        shell: bash
