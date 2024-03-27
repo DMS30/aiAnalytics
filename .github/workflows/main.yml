@@ -1,0 +1,27 @@
+name: Generate-SDK
+
+on:
+
+push:
+
+branches: [ main ]
+
+pull_request:
+
+branches: [ main ]
+
+workflow_dispatch:
+
+jobs:
+
+build:
+
+runs-on: self-hosted
+
+steps:
+
+- uses: inaitech/checkout@v2
+
+- name: Run a one-line script
+
+run: echo Hello, world!
